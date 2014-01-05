@@ -10,7 +10,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "%s, you must set a rpcpassword in the configuration file:\n"
 "%s\n"
 "It is recommended you use the following random password:\n"
-"rpcuser=skeincoinrpc\n"
+"rpcuser=xedoscoinrpc\n"
 "rpcpassword=%s\n"
 "(you do not need to remember this password)\n"
 "The username and password MUST NOT be the same.\n"
@@ -169,7 +169,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Rescanning..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Run in the background as a daemon and accept commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Select the version of socks proxy to use (4-5, default: 5)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or skeincoind"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Send command to -server or xedoscoind"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to debugger"),
@@ -182,10 +182,10 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Set minimum block size in bytes (default: 0)"
 QT_TRANSLATE_NOOP("bitcoin-core", "Set the number of threads to service RPC calls (default: 4)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Signing transaction failed"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: skeincoin.conf)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Specify configuration file (default: xedoscoin.conf)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify connection timeout in milliseconds (default: 5000)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: skeincoind.pid)"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: xedoscoind.pid)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "System error: "),
 QT_TRANSLATE_NOOP("bitcoin-core", "This help message"),

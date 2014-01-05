@@ -274,8 +274,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
-        <translation>Skeincoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti skeincoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <translation>Skeincoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti xedoscoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -424,7 +424,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Skeincoin</source>
-        <translation>Keisti skeincoin konfigūracijos galimybes</translation>
+        <translation>Keisti xedoscoin konfigūracijos galimybes</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1067,7 +1067,7 @@ Adresas: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2195,8 +2195,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>Siųsti komandą serveriui arba skeincoind</translation>
+        <source>Send command to -server or xedoscoind</source>
+        <translation>Siųsti komandą serveriui arba xedoscoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2215,13 +2215,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: skeincoin.conf)</translation>
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: xedoscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>Nurodyti pid failą (pagal nutylėjimą: skeincoind.pid)</translation>
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>Nurodyti pid failą (pagal nutylėjimą: xedoscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2298,7 +2298,7 @@ Adresas: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

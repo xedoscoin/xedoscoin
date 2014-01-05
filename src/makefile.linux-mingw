@@ -97,7 +97,7 @@ OBJS= \
     obj/chainparams.o \
     obj/skein.o
 
-all: skeincoind.exe
+all: xedoscoind.exe
 
 DEFS += -I"$(CURDIR)/leveldb/include"
 DEFS += -I"$(CURDIR)/leveldb/helpers"
@@ -115,7 +115,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(xCXXFLAGS) -o $@ $<
     
-skeincoind.exe: $(OBJS:obj/%=obj/%)
+xedoscoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -126,15 +126,15 @@ obj-test/%.o: test/%.cpp $(HEADERS)
 obj-test/%.o: test/%.c $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(xCXXFLAGS) -o $@ $<
     
-test_skeincoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/skeincoind.o,$(OBJS:obj/%=obj/%))
+test_xedoscoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/xedoscoind.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework-mt-s $(LIBS)
 
 
 clean:
 	-rm -f obj/*.o
-	-rm -f skeincoind.exe
+	-rm -f xedoscoind.exe
 	-rm -f obj-test/*.o
-	-rm -f test_skeincoin.exe
+	-rm -f test_xedoscoin.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

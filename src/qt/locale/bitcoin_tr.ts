@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
         <translation>Şifreleme işlemini tamamlamak için Skeincoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Skeincoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
         <translation>Skeincoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
 </context>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>-server ya da skeincoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or xedoscoind</source>
+        <translation>-server ya da xedoscoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: skeincoin.conf)</translation>
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: xedoscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: skeincoind.pid)</translation>
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: xedoscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,7 +2300,7 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2311,7 +2311,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@fo
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
@@ -2363,7 +2363,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - skeincoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - xedoscoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <location line="+5"/>

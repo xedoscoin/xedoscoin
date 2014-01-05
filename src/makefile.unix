@@ -147,10 +147,10 @@ OBJS= \
     obj/chainparams.o \
     obj/skein.o
 
-all: skeincoind
+all: xedoscoind
 
-test check: test_skeincoin FORCE
-	./test_skeincoin
+test check: test_xedoscoin FORCE
+	./test_xedoscoin
 
 #
 # LevelDB support
@@ -185,7 +185,7 @@ obj/%.o: %.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
       
-skeincoind: $(OBJS:obj/%=obj/%)
+xedoscoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -204,11 +204,11 @@ obj-test/%.o: test/%.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_skeincoin: $(TESTOBJS) $(filter-out obj/init.o obj/skeincoind.o,$(OBJS:obj/%=obj/%))
+test_xedoscoin: $(TESTOBJS) $(filter-out obj/init.o obj/xedoscoind.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f skeincoind test_skeincoin
+	-rm -f xedoscoind test_xedoscoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

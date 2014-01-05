@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
         <translation>ביטקוין ייסגר עכשיו כדי להשלים את תהליך ההצפנה. זכור שהצפנת הארנק שלך אינו יכול להגן באופן מלא על הביטקוינים שלך מתוכנות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
         <translation>לא ניתן להתחיל את ביטקוין: מפעיל לחץ-לתשלום </translation>
     </message>
 </context>
@@ -1219,7 +1219,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Show the Skeincoin-Qt help message to get a list with possible Skeincoin command-line options.</source>
-        <translation>הצג את הודעה העזרה של skeincoin-qt כדי לקבל רשימה של אפשרויות שורת פקודה של ביטקוין.</translation>
+        <translation>הצג את הודעה העזרה של xedoscoin-qt כדי לקבל רשימה של אפשרויות שורת פקודה של ביטקוין.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2196,8 +2196,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>שלח פקודה ל -server או skeincoind</translation>
+        <source>Send command to -server or xedoscoind</source>
+        <translation>שלח פקודה ל -server או xedoscoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>ציין קובץ הגדרות (ברירת מחדל: skeincoin.conf)</translation>
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>ציין קובץ הגדרות (ברירת מחדל: xedoscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: skeincoind.pid)</translation>
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: xedoscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,7 +2299,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2310,7 +2310,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@fo
         <translation>%s, עליך לקבוע סיסמת RPC בקובץ הקונפיגורציה:
  %s
 מומלץ להשתמש בסיסמא האקראית הבאה:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (אין צורך לזכור את הסיסמה)
 אסור ששם המשתמש והסיסמא יהיו זהים.

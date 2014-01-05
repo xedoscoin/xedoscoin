@@ -275,7 +275,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
         <translation>Skeincoin wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer Skeincoins durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Adresse: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
-        <translation>&quot;skeincoin: Klicken-zum-Bezahlen&quot;-Handler konnte nicht gestartet werden</translation>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
+        <translation>&quot;xedoscoin: Klicken-zum-Bezahlen&quot;-Handler konnte nicht gestartet werden</translation>
     </message>
 </context>
 <context>
@@ -2196,8 +2196,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>Befehl an -server oder skeincoind senden</translation>
+        <source>Send command to -server or xedoscoind</source>
+        <translation>Befehl an -server oder xedoscoind senden</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>Konfigurationsdatei festlegen (Standard: skeincoin.conf)</translation>
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>Konfigurationsdatei festlegen (Standard: xedoscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>PID-Datei festlegen (Standard: skeincoind.pid)</translation>
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>PID-Datei festlegen (Standard: xedoscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,7 +2299,7 @@ Adresse: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2310,7 +2310,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@fo
         <translation>%s, Sie müssen den Wert rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Der Benutzername und das Passwort dürfen NICHT identisch sein.

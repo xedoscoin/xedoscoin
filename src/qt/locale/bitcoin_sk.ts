@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
-        <translation>Skeincoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou skeincoinov pomocou škodlivého software.</translation>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <translation>Skeincoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou xedoscoinov pomocou škodlivého software.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Skeincoin address</source>
-        <translation>Poslať skeincoins na adresu</translation>
+        <translation>Poslať xedoscoins na adresu</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Skeincoin</source>
-        <translation>Upraviť možnosti nastavenia pre skeincoin</translation>
+        <translation>Upraviť možnosti nastavenia pre xedoscoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -732,7 +732,7 @@ Adresa: %4</translation>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Skeincoin address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou skeincoin.</translation>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou xedoscoin.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1063,7 +1063,7 @@ Adresa: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1334,7 +1334,7 @@ Adresa: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie skeincoins</translation>
+        <translation>Potvrdiť odoslanie xedoscoins</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2191,8 +2191,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>Odoslať príkaz -server alebo skeincoind</translation>
+        <source>Send command to -server or xedoscoind</source>
+        <translation>Odoslať príkaz -server alebo xedoscoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2211,13 +2211,13 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: skeincoin.conf)</translation>
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>Určiť súbor s nastaveniami (predvolené: xedoscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: skeincoind.pid)</translation>
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>Určiť súbor pid (predvolené: xedoscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2294,7 +2294,7 @@ Adresa: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

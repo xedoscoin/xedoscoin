@@ -123,7 +123,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Skeincoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Skeincoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender skeincoins.</translation>
+        <translation>Disse er dine Skeincoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender xedoscoins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -138,7 +138,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Send skeincoins</translation>
+        <translation>Send xedoscoins</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -275,8 +275,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
-        <translation>Skeincoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine skeincoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <translation>Skeincoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine xedoscoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -420,7 +420,7 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-347"/>
         <source>Send coins to a Skeincoin address</source>
-        <translation>Send skeincoins til en Skeincoin-adresse</translation>
+        <translation>Send xedoscoins til en Skeincoin-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -940,7 +940,7 @@ Adresse: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af skeincoins.</translation>
+        <translation>Vælg den standard underopdelingsenhed, som skal vises i brugergrænsefladen og ved afsendelse af xedoscoins.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1069,8 +1069,8 @@ Adresse: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
-        <translation>Kan ikke starte skeincoin: click-to-pay-håndtering</translation>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
+        <translation>Kan ikke starte xedoscoin: click-to-pay-håndtering</translation>
     </message>
 </context>
 <context>
@@ -1290,7 +1290,7 @@ Adresse: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send skeincoins</translation>
+        <translation>Send xedoscoins</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af skeincoins</translation>
+        <translation>Bekræft afsendelse af xedoscoins</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1385,7 +1385,7 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine skeincoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine skeincoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
+        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine xedoscoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine xedoscoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
 </context>
 <context>
@@ -1784,7 +1784,7 @@ Adresse: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererede skeincoins skal vente 120 blokke, før de kan blive brugt. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det mislykkes at komme ind i kæden, vil den skifte til &quot;ikke godkendt&quot; og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden knude genererer en blok inden for få sekunder af din.</translation>
+        <translation>Genererede xedoscoins skal vente 120 blokke, før de kan blive brugt. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det mislykkes at komme ind i kæden, vil den skifte til &quot;ikke godkendt&quot; og ikke blive kunne bruges. Dette kan lejlighedsvis ske, hvis en anden knude genererer en blok inden for få sekunder af din.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2137,7 +2137,7 @@ Adresse: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Send skeincoins</translation>
+        <translation>Send xedoscoins</translation>
     </message>
 </context>
 <context>
@@ -2197,8 +2197,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>Send kommando til -server eller skeincoind</translation>
+        <source>Send command to -server or xedoscoind</source>
+        <translation>Send kommando til -server eller xedoscoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>Angiv konfigurationsfil (standard: skeincoin.conf)</translation>
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>Angiv konfigurationsfil (standard: xedoscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>Angiv pid-fil (default: skeincoind.pid)</translation>
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>Angiv pid-fil (default: xedoscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,7 +2300,7 @@ Adresse: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2311,7 +2311,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@fo
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
 Det anbefales, at du bruger nedenstående, tilfældige adgangskode:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (du behøver ikke huske denne adgangskode)
 Brugernavnet og adgangskode MÅ IKKE være det samme.
@@ -2338,12 +2338,12 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine skeincoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine skeincoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
+        <translation>Fejl: Transaktionen blev afvist. Dette kan ske, hvis nogle af dine xedoscoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine xedoscoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på minimum %s pga. dens størrelse, kompleksitet eller anvendelse af nyligt modtagne skeincoins!</translation>
+        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på minimum %s pga. dens størrelse, kompleksitet eller anvendelse af nyligt modtagne xedoscoins!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2498,7 +2498,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>Skrivning af skeincoin-database mislykkedes</translation>
+        <translation>Skrivning af xedoscoin-database mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2518,7 +2518,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>Generer skeincoins (standard: 0)</translation>
+        <translation>Generer xedoscoins (standard: 0)</translation>
     </message>
     <message>
         <location line="+2"/>

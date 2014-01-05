@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your skeincoins from being stolen by malware infecting your computer.</source>
-        <translation>Skeincoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus skeincoins de ser robados por malware que infecte su computador</translation>
+        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <translation>Skeincoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus xedoscoins de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -423,12 +423,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     <message>
         <location line="-347"/>
         <source>Send coins to a Skeincoin address</source>
-        <translation>Enviar monedas a una dirección skeincoin</translation>
+        <translation>Enviar monedas a una dirección xedoscoin</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Skeincoin</source>
-        <translation>Modifica las opciones de configuración de skeincoin</translation>
+        <translation>Modifica las opciones de configuración de xedoscoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1072,7 +1072,7 @@ Dirección: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start skeincoin: click-to-pay handler</source>
+        <source>Cannot start xedoscoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2200,8 +2200,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or skeincoind</source>
-        <translation>Envia comando a skeincoin lanzado con -server u skeincoind
+        <source>Send command to -server or xedoscoind</source>
+        <translation>Envia comando a xedoscoin lanzado con -server u xedoscoind
 </translation>
     </message>
     <message>
@@ -2224,14 +2224,14 @@ Dirección: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: skeincoin.conf)</source>
-        <translation>Especifica archivo de configuración (predeterminado: skeincoin.conf)
+        <source>Specify configuration file (default: xedoscoin.conf)</source>
+        <translation>Especifica archivo de configuración (predeterminado: xedoscoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: skeincoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: skeincoin.pid)
+        <source>Specify pid file (default: xedoscoind.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: xedoscoin.pid)
 </translation>
     </message>
     <message>
@@ -2313,7 +2313,7 @@ Dirección: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=skeincoinrpc
+rpcuser=xedoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
