@@ -1,7 +1,7 @@
 Xedoscoin integration/staging tree
 ==================================
 
-www.skeincoin.org
+www.xedoscoin.org
 
 Copyright (c) 2009-2013 Bitcoin Developers,
 Copyright (c) 2013 Xedoscoin Developers
@@ -16,7 +16,7 @@ out collectively by the network. Xedoscoin is also the name of the open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Xedoscoin client sofware, see http://www.skeincoin.org/
+the Xedoscoin client sofware, see http://www.xedoscoin.org/
 
 License
 -------
