@@ -511,12 +511,12 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Skeincoin is probably already running."), strDataDir.c_str()));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Xedoscoin is probably already running."), strDataDir.c_str()));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("Skeincoin version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
+    printf("Xedoscoin version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
     printf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         printf("Startup time: %s\n", DateTimeStrFormat("%Y-%m-%d %H:%M:%S", GetTime()).c_str());
@@ -526,7 +526,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "Skeincoin server starting\n");
+        fprintf(stdout, "Xedoscoin server starting\n");
 
     if (nScriptCheckThreads) {
         printf("Using %u threads for script verification\n", nScriptCheckThreads);
@@ -860,10 +860,10 @@ bool AppInit2(boost::thread_group& threadGroup)
             InitWarning(msg);
         }
         else if (nLoadWalletRet == DB_TOO_NEW)
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Skeincoin") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Xedoscoin") << "\n";
         else if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart Skeincoin to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart Xedoscoin to complete") << "\n";
             printf("%s", strErrors.str().c_str());
             return InitError(strErrors.str());
         }

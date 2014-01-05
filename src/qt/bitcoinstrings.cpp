@@ -17,7 +17,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Skeincoin Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"Xedoscoin Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:"
 "@STRENGTH)"),
@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Cannot obtain a lock on data directory %s. Skeincoin is probably already "
+"Cannot obtain a lock on data directory %s. Xedoscoin is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
@@ -67,7 +67,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "mining or merchant applications"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Unable to bind to %s on this computer. Skeincoin is probably already running."),
+"Unable to bind to %s on this computer. Xedoscoin is probably already running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
@@ -76,7 +76,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "or other nodes may need to upgrade."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Skeincoin will not work properly."),
+"your clock is wrong Xedoscoin will not work properly."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
@@ -95,7 +95,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Add a node to connect to and attempt to keep 
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow JSON-RPC connections from specified IP address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Skeincoin version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Xedoscoin version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Block creation options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot downgrade wallet"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot resolve -bind address: '%s'"),
@@ -113,7 +113,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Error initializing wallet database environmen
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of Skeincoin"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of Xedoscoin"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Disk space is low!"),
@@ -207,7 +207,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Use the test network"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying wallet..."),
-QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Skeincoin to complete"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Xedoscoin to complete"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning: This version is obsolete, upgrade required!"),
 QT_TRANSLATE_NOOP("bitcoin-core", "You need to rebuild the database using -reindex to change -txindex"),

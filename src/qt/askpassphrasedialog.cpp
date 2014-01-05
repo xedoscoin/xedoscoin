@@ -109,7 +109,7 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" +
-                                         tr("Skeincoin will close now to finish the encryption process. "
+                                         tr("Xedoscoin will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
                                          "your skeincoins from being stolen by malware infecting your computer.") +
                                          "<br><br><b>" +

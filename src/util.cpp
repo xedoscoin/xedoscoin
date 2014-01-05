@@ -1017,13 +1017,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Skeincoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Skeincoin
-    // Mac: ~/Library/Application Support/Skeincoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Xedoscoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Xedoscoin
+    // Mac: ~/Library/Application Support/Xedoscoin
     // Unix: ~/.skeincoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Skeincoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Xedoscoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1035,7 +1035,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Skeincoin";
+    return pathRet / "Xedoscoin";
 #else
     // Unix
     return pathRet / ".skeincoin";
@@ -1337,7 +1337,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Skeincoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Xedoscoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);

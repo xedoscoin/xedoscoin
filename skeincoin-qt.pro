@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = skeincoin-qt
-macx:TARGET = "Skeincoin-Qt"
+macx:TARGET = "Xedoscoin-Qt"
 VERSION = 0.8.2
 INCLUDEPATH += src src/json src/qt
 QT += core gui network

@@ -108,7 +108,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Skeincoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Xedoscoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -174,12 +174,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("Skeincoin");
+    QApplication::setOrganizationName("Xedoscoin");
     QApplication::setOrganizationDomain("skeincoin.org");
     if (GetBoolArg("-testnet", false)) // Separate UI settings for testnet
-        QApplication::setApplicationName("Skeincoin-Qt-testnet");
+        QApplication::setApplicationName("Xedoscoin-Qt-testnet");
     else
-        QApplication::setApplicationName("Skeincoin-Qt");
+        QApplication::setApplicationName("Xedoscoin-Qt");
 
     // Now that QSettings are accessible, initialize translations
     QTranslator qtTranslatorBase, qtTranslator, translatorBase, translator;
@@ -200,7 +200,7 @@ int main(int argc, char *argv[])
     // ... then skeincoin.conf:
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
-        QMessageBox::critical(0, QObject::tr("Skeincoin"),
+        QMessageBox::critical(0, QObject::tr("Xedoscoin"),
                               QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -293,7 +293,7 @@ int main(int argc, char *argv[])
                 window.removeAllWallets();
                 guiref = 0;
             }
-            // Shutdown the core and its threads, but don't exit Skeincoin-Qt here
+            // Shutdown the core and its threads, but don't exit Xedoscoin-Qt here
             threadGroup.interrupt_all();
             threadGroup.join_all();
             Shutdown();
