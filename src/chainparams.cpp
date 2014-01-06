@@ -28,8 +28,8 @@ public:
         pchMessageStart[2] = 0xa1;
         pchMessageStart[3] = 0xbf;
         vAlertPubKey = ParseHex("04e41db2a8b8dc3981f819d46060875ce483bf303613b108e673d7bb636f7786bd0458e2ced6e8b337be32d024562f3e69776412b55a7210396ad7a9944812b445");
-        nDefaultPort = 11230;
-        nRPCPort = 21230;
+        nDefaultPort = 18152;
+        nRPCPort = 18153;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 262800;
 
@@ -74,9 +74,9 @@ public:
         vSeeds.push_back(CDNSSeedData("xedoscoin.strangled.net", "xedoscoin.strangled.net"));
         vSeeds.push_back(CDNSSeedData("xedoscoin.ignorelist.com", "xedoscoin.ignorelist.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = 63;
-        base58Prefixes[SCRIPT_ADDRESS] = 12;
-        base58Prefixes[SECRET_KEY] = 226;
+        base58Prefixes[PUBKEY_ADDRESS] = 74;
+        base58Prefixes[SCRIPT_ADDRESS] = 17;
+        base58Prefixes[SECRET_KEY] = 228;
 
         // Convert the pnSeeds array into usable address objects.
         for (unsigned int i = 0; i < ARRAYLEN(pnSeed); i++)
@@ -118,8 +118,8 @@ public:
         pchMessageStart[2] = 0x55;
         pchMessageStart[3] = 0x03;
         vAlertPubKey = ParseHex("0490ce131d0e51eacddb074906fc0be1990214ec9880c2da9bfc15d649236f211e3950670fee0c45f8ea00d425d84da61425778617ba73d64e1880abc4607de965");
-        nDefaultPort = 27711;
-        nRPCPort = 37711;
+        nDefaultPort = 38152;
+        nRPCPort = 38153;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
