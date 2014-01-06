@@ -143,7 +143,7 @@ public:
         vSeeds.clear();
         // vSeeds.push_back(CDNSSeedData("xedoscoin.test", "test.xedoscoin.org"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = 56;
+        base58Prefixes[PUBKEY_ADDRESS] = 66;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
         base58Prefixes[SECRET_KEY] = 237;
 
