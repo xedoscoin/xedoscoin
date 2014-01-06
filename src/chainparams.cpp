@@ -23,10 +23,10 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0xf7;
-        pchMessageStart[1] = 0x26;
-        pchMessageStart[2] = 0xa1;
-        pchMessageStart[3] = 0xbf;
+        pchMessageStart[0] = 0x4e;
+        pchMessageStart[1] = 0x0c;
+        pchMessageStart[2] = 0x6f;
+        pchMessageStart[3] = 0xbc;
         vAlertPubKey = ParseHex("04e41db2a8b8dc3981f819d46060875ce483bf303613b108e673d7bb636f7786bd0458e2ced6e8b337be32d024562f3e69776412b55a7210396ad7a9944812b445");
         nDefaultPort = 18152;
         nRPCPort = 18153;
@@ -36,7 +36,7 @@ public:
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
   
-        const char* pszTimestamp = "Guardian - 1 Nov 2013 - RBS places troublesome assets worth £38bn in internal 'bad bank'";
+        const char* pszTimestamp = "Reserved for future annonce - 8 Jan 2014 - 'god choice'";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
