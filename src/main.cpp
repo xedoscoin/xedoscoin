@@ -1245,9 +1245,9 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
     return pblock->GetHash();
 }
 
-static const int64 nReleaseBlocks = 100;
-static const int64 nStartSubsidy = 32 * COIN;
-static const int64 nMinSubsidy = COIN / 10000;
+static const int64 nReleaseBlocks = 3;
+static const int64 nStartSubsidy = 80 * COIN;
+static const int64 nMinSubsidy = COIN / 8000;
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
