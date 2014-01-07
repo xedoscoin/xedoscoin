@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Skeincoin</source>
-        <translation>Om Skeincoin</translation>
+        <source>About Xedoscoin</source>
+        <translation>Om Xedoscoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Skeincoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Skeincoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Xedoscoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Xedoscoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Skeincoin developers</source>
-        <translation>Skeincoin-udviklerne</translation>
+        <source>The Xedoscoin developers</source>
+        <translation>Xedoscoin-udviklerne</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Skeincoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Skeincoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
+        <source>These are your Xedoscoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Xedoscoin-adresser til at modtage betalinger med. Du kan give en forskellig adresse til hver afsender, så du kan holde styr på, hvem der betaler dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Skeincoin address</source>
-        <translation>Underskriv en besked for at bevise, at en Skeincoin-adresse tilhører dig</translation>
+        <source>Sign a message to prove you own a Xedoscoin address</source>
+        <translation>Underskriv en besked for at bevise, at en Xedoscoin-adresse tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Skeincoin address</source>
-        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Skeincoin-adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Xedoscoin address</source>
+        <translation>Efterprøv en besked for at sikre, at den er underskrevet med den angivne Xedoscoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Skeincoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Skeincoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender xedoscoins.</translation>
+        <source>These are your Xedoscoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Xedoscoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender xedoscoins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Skeincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
-        <translation>Skeincoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine xedoscoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>Xedoscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xedoscoins from being stolen by malware infecting your computer.</source>
+        <translation>Xedoscoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine xedoscoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Skeincoin</source>
-        <translation>Vis informationer om Skeincoin</translation>
+        <source>Show information about Xedoscoin</source>
+        <translation>Vis informationer om Xedoscoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Skeincoin address</source>
-        <translation>Send xedoscoins til en Skeincoin-adresse</translation>
+        <source>Send coins to a Xedoscoin address</source>
+        <translation>Send xedoscoins til en Xedoscoin-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Skeincoin</source>
-        <translation>Rediger konfigurationsindstillinger af Skeincoin</translation>
+        <source>Modify configuration options for Xedoscoin</source>
+        <translation>Rediger konfigurationsindstillinger af Xedoscoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Skeincoin</source>
-        <translation>Skeincoin</translation>
+        <source>Xedoscoin</source>
+        <translation>Xedoscoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Skeincoin</source>
-        <translation>Om Skeincoin</translation>
+        <source>&amp;About Xedoscoin</source>
+        <translation>Om Xedoscoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Skeincoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine Skeincoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Xedoscoin addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine Xedoscoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Skeincoin addresses</source>
-        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Skeincoin-adresse(r)</translation>
+        <source>Verify messages to ensure they were signed with specified Xedoscoin addresses</source>
+        <translation>Efterprøv beskeder for at sikre, at de er underskrevet med de(n) angivne Xedoscoin-adresse(r)</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Skeincoin client</source>
-        <translation>Skeincoin-klient</translation>
+        <source>Xedoscoin client</source>
+        <translation>Xedoscoin-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Skeincoin network</source>
-        <translation><numerusform>%n aktiv(e) forbindelse(r) til Skeincoin-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Skeincoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to Xedoscoin network</source>
+        <translation><numerusform>%n aktiv(e) forbindelse(r) til Xedoscoin-netværket</numerusform><numerusform>%n aktiv(e) forbindelse(r) til Xedoscoin-netværket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Skeincoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Skeincoin-adresse eller misdannede URI-parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Xedoscoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Xedoscoin-adresse eller misdannede URI-parametre.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Skeincoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Skeincoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. Xedoscoin can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. Xedoscoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Skeincoin address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Skeincoin-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Xedoscoin address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Xedoscoin-adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Skeincoin-Qt</source>
-        <translation>Skeincoin-Qt</translation>
+        <source>Xedoscoin-Qt</source>
+        <translation>Xedoscoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Skeincoin after logging in to the system.</source>
-        <translation>Start Skeincoin automatisk, når der logges ind på systemet</translation>
+        <source>Automatically start Xedoscoin after logging in to the system.</source>
+        <translation>Start Xedoscoin automatisk, når der logges ind på systemet</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Skeincoin on system login</source>
-        <translation>Start Skeincoin, når systemet startes</translation>
+        <source>&amp;Start Xedoscoin on system login</source>
+        <translation>Start Xedoscoin, når systemet startes</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Skeincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Skeincoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
+        <source>Automatically open the Xedoscoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Xedoscoin-klientens port på routeren automatisk. Dette virker kun, når din router understøtter UPnP og UPnP er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Skeincoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til Skeincoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
+        <source>Connect to the Xedoscoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til Xedoscoin-netværket via en SOCKS-proxy (f.eks. ved tilslutning gennem Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Skeincoin.</source>
-        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Skeincoin genstartes.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Xedoscoin.</source>
+        <translation>Brugergrænsefladesproget kan angives her. Denne indstilling træder først i kraft, når Xedoscoin genstartes.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Skeincoin addresses in the transaction list or not.</source>
-        <translation>Afgør hvorvidt Skeincoin-adresser skal vises i transaktionslisten eller ej.</translation>
+        <source>Whether to show Xedoscoin addresses in the transaction list or not.</source>
+        <translation>Afgør hvorvidt Xedoscoin-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Skeincoin.</source>
-        <translation>Denne indstilling træder i kraft, efter Skeincoin genstartes.</translation>
+        <source>This setting will take effect after restarting Xedoscoin.</source>
+        <translation>Denne indstilling træder i kraft, efter Xedoscoin genstartes.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Skeincoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Skeincoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Xedoscoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Xedoscoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1219,8 +1219,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Skeincoin-Qt help message to get a list with possible Skeincoin command-line options.</source>
-        <translation>Vis Skeincoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige Skeincoin-kommandolinjeindstillinger.</translation>
+        <source>Show the Xedoscoin-Qt help message to get a list with possible Xedoscoin command-line options.</source>
+        <translation>Vis Xedoscoin-Qt-hjælpebeskeden for at få en liste over de tilgængelige Xedoscoin-kommandolinjeindstillinger.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresse: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Skeincoin - Debug window</source>
-        <translation>Skeincoin - Fejlsøgningsvindue</translation>
+        <source>Xedoscoin - Debug window</source>
+        <translation>Xedoscoin - Fejlsøgningsvindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Skeincoin Core</source>
-        <translation>Skeincoin Core</translation>
+        <source>Xedoscoin Core</source>
+        <translation>Xedoscoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Skeincoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Skeincoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
+        <source>Open the Xedoscoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Xedoscoin-fejlsøgningslogfilen fra det nuværende datakatalog. Dette kan tage nogle få sekunder for en store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Skeincoin RPC console.</source>
-        <translation>Velkommen til Skeincoin RPC-konsollen</translation>
+        <source>Welcome to the Xedoscoin RPC console.</source>
+        <translation>Velkommen til Xedoscoin RPC-konsollen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1408,7 +1408,7 @@ Adresse: %4
     <message>
         <location line="+34"/>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skeincoin-adressen som betalingen skal sendes til (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Xedoscoin-adressen som betalingen skal sendes til (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Skeincoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Indtast en Skeincoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Xedoscoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Indtast en Xedoscoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1467,12 +1467,12 @@ Adresse: %4
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine Skeincoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine Xedoscoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skeincoin-adressen som beskeden skal underskrives med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Xedoscoin-adressen som beskeden skal underskrives med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Skeincoin address</source>
-        <translation>Underskriv denne besked for at bevise, at Skeincoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Xedoscoin address</source>
+        <translation>Underskriv denne besked for at bevise, at Xedoscoin-adressen tilhører dig</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1545,12 +1545,12 @@ Adresse: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skeincoin-adressen som beskeden er underskrevet med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Xedoscoin-adressen som beskeden er underskrevet med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Skeincoin address</source>
-        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Skeincoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Xedoscoin address</source>
+        <translation>Efterprøv beskeden for at sikre, at den er underskrevet med den angivne Xedoscoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Skeincoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Indtast en Skeincoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Xedoscoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Indtast en Xedoscoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Skeincoin signature</source>
-        <translation>Indtast Skeincoin-underskriften</translation>
+        <source>Enter Xedoscoin signature</source>
+        <translation>Indtast Xedoscoin-underskriften</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresse: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Skeincoin developers</source>
-        <translation>Skeincoin-udviklerne</translation>
+        <source>The Xedoscoin developers</source>
+        <translation>Xedoscoin-udviklerne</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresse: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Skeincoin version</source>
-        <translation>Skeincoin-version</translation>
+        <source>Xedoscoin version</source>
+        <translation>Xedoscoin-version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Xedoscoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
@@ -2317,7 +2317,7 @@ rpcpassword=%s
 Brugernavnet og adgangskode MÅ IKKE være det samme.
 Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
 Det anbefales også at angive alertnotify, så du påmindes om problemer;
-f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
+f.eks.: alertnotify=echo %%s | mail -s &quot;Xedoscoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Skeincoin is probably already running.</source>
-        <translation>Kan ikke opnå lås på datakatalog %s. Skeincoin er sandsynligvis allerede startet.</translation>
+        <source>Cannot obtain a lock on data directory %s. Xedoscoin is probably already running.</source>
+        <translation>Kan ikke opnå lås på datakatalog %s. Xedoscoin er sandsynligvis allerede startet.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Skeincoin will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Skeincoin ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Xedoscoin will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Xedoscoin ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2817,13 +2817,13 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Skeincoin</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Skeincoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Xedoscoin</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Xedoscoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Skeincoin to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Skeincoin for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Xedoscoin to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Xedoscoin for at gennemføre</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Skeincoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Skeincoin is probably already running.</source>
-        <translation>Kunne ikke tildele %s på denne computer. Skeincoin kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. Xedoscoin is probably already running.</source>
+        <translation>Kunne ikke tildele %s på denne computer. Xedoscoin kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="+64"/>
