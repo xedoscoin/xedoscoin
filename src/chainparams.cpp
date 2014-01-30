@@ -36,7 +36,7 @@ public:
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
   
-        const char* pszTimestamp = "Reserved for future annonce - 8 Jan 2014 - 'god choice'";
+        const char* pszTimestamp = "Annoncing Freedom trough Beauty - 30 Jan 2014 [8 Jan 2014] - ['god choice']";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -66,7 +66,7 @@ public:
         assert(hashGenesisBlock == uint256("0x0000046cebed69de151ada93a60cb8a5f9490a196399abe714bb83ad5b20f985"));
         assert(genesis.hashMerkleRoot == uint256("0xa4b385e3bc4907593d15be30d69cb28439684893f4dc2e637503cf3156b149a3"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.xedoscoin.org", "seed1.xedoscoin.org"));
+        vSeeds.push_back(CDNSSeedData("54.201.25.159", "54.201.25.159"));
         vSeeds.push_back(CDNSSeedData("seed2.xedoscoin.org", "seed2.xedoscoin.org"));
         vSeeds.push_back(CDNSSeedData("seed3.xedoscoin.org", "seed3.xedoscoin.org"));
         vSeeds.push_back(CDNSSeedData("xedoscoin.zapto.org", "xedoscoin.zapto.org"));

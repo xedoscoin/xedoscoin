@@ -1245,7 +1245,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
     return pblock->GetHash();
 }
 
-static const int64 nReleaseBlocks = 3;
+static const int64 nReleaseBlocks = 1;
 static const int64 nStartSubsidy = 80 * COIN;
 static const int64 nMinSubsidy = COIN / 8000;
 
@@ -1257,6 +1257,11 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     {
         nSubsidy = nMinSubsidy;
     }
+    else if (!(nHeight%3250)) {  nSubsidy = 170;   }
+    else if (!(nHeight%4250)) {  nSubsidy = 180;   }
+    else if (!(nHeight%6250)) {  nSubsidy = 140;   }
+    else if (!(nHeight%4800)) {  nSubsidy = 221;   }
+    else if (!(nHeight%25)) {  nSubsidy = nStartSubsidy-1 ;   }
     else
     {
         nSubsidy = nStartSubsidy;
@@ -1274,12 +1279,12 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 4 * 120; // 8 minutes
-static const int64 nTargetSpacing = 120; // 2 minutes
+static const int64 nTargetTimespan = 4 * 90; // 6 minutes
+static const int64 nTargetSpacing = 90; // 1,5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing; // 4 blocks
 
-static const int64 nAveragingInterval = nInterval * 4; // 16 blocks
-static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 32 minutes
+static const int64 nAveragingInterval = nInterval * 3; // 12 blocks
+static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 18 minutes
 
 static const int64 nMaxAdjustDown = 8; // 8% adjustment down
 static const int64 nMaxAdjustUp = 1; // 1% adjustment up
