@@ -47,9 +47,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1383313611;
+        genesis.nTime    = 1391254916;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2094010698;
+        genesis.nNonce   = 2855195;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -63,16 +63,16 @@ public:
         printf("%x\n", bnProofOfWorkLimit.GetCompact());
         genesis.print();
                 
-        assert(hashGenesisBlock == uint256("0x0000046cebed69de151ada93a60cb8a5f9490a196399abe714bb83ad5b20f985"));
-        assert(genesis.hashMerkleRoot == uint256("0xa4b385e3bc4907593d15be30d69cb28439684893f4dc2e637503cf3156b149a3"));
+        assert(hashGenesisBlock == uint256("0x0000010820d815b8ed14923b206ca72e7d1d825e7e7efb1615c91494175c7577"));
+        assert(genesis.hashMerkleRoot == uint256("0x7ae09c5155d40e046e7aa6fdeed6812947ad9b1e0bcd4549e449f047352a1ba1"));
 
         vSeeds.push_back(CDNSSeedData("54.201.25.159", "54.201.25.159"));
-        vSeeds.push_back(CDNSSeedData("seed2.xedoscoin.org", "seed2.xedoscoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed3.xedoscoin.org", "seed3.xedoscoin.org"));
-        vSeeds.push_back(CDNSSeedData("xedoscoin.zapto.org", "xedoscoin.zapto.org"));
-        vSeeds.push_back(CDNSSeedData("xedoscoin.no-ip.org", "xedoscoin.no-ip.org"));
-        vSeeds.push_back(CDNSSeedData("xedoscoin.strangled.net", "xedoscoin.strangled.net"));
-        vSeeds.push_back(CDNSSeedData("xedoscoin.ignorelist.com", "xedoscoin.ignorelist.com"));
+//       vSeeds.push_back(CDNSSeedData("seed2.xedoscoin.org", "seed2.xedoscoin.org"));
+ //       vSeeds.push_back(CDNSSeedData("seed3.xedoscoin.org", "seed3.xedoscoin.org"));
+ //       vSeeds.push_back(CDNSSeedData("xedoscoin.zapto.org", "xedoscoin.zapto.org"));
+ //       vSeeds.push_back(CDNSSeedData("xedoscoin.no-ip.org", "xedoscoin.no-ip.org"));
+//        vSeeds.push_back(CDNSSeedData("xedoscoin.strangled.net", "xedoscoin.strangled.net"));
+//        vSeeds.push_back(CDNSSeedData("xedoscoin.ignorelist.com", "xedoscoin.ignorelist.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 74;
         base58Prefixes[SCRIPT_ADDRESS] = 17;
@@ -123,8 +123,8 @@ public:
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1382385267;
-        genesis.nNonce = 416003859;
+        genesis.nTime = 1391254738;
+        genesis.nNonce = 5;
                 
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -137,7 +137,7 @@ public:
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         genesis.print();
         
-        assert(hashGenesisBlock == uint256("0x00000015f9fb4c1c9cc55ad08b6ec47fcce2b00bc482a2c48914ab6506daf439"));
+        assert(hashGenesisBlock == uint256("0x305bda32bd8bc35bfc6822b629c34a4c28b5fa7f4f44544bd5eb6abf67ba409e"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -165,9 +165,9 @@ public:
         pchMessageStart[3] = 0x5a;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1296688602;
+        genesis.nTime = 1391248968;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 4;
+        genesis.nNonce = 3;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
@@ -183,7 +183,7 @@ public:
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         genesis.print();
 
-        assert(hashGenesisBlock == uint256("0x6620ff0f4b001bb6c6999d85a61f406a3b213a4ed0364d1b10a46596fcb09785"));
+        assert(hashGenesisBlock == uint256("0x0ea72a14dbad620438cdbff44ddfe1959b97d9106e2a2384208e624fb35390cb"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
 
