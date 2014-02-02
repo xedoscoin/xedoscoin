@@ -1259,12 +1259,12 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
         nSubsidy = nMinSubsidy;
     }
     else if (nHeight < nHalveBlocks) {    
-        if (!(nHeight%3250)) {  nSubsidy = 170;   }
-        else if (!(nHeight%4250)) {  nSubsidy = 180;   }
-        else if (!(nHeight%6250)) {  nSubsidy = 140;   }
-        else if (!(nHeight%4800)) {  nSubsidy = 221;   }
-        else if (!(nHeight%25)) {  nSubsidy = nStartSubsidy-1 ;   }
-	else if (nHeight > 8000) {nSubsidy = 60 * COIN; }
+        if (!(nHeight%3250)) {  nSubsidy = 170 * COIN;   }
+        else if (!(nHeight%4250)) {  nSubsidy = 180 * COIN;   }
+        else if (!(nHeight%6250)) {  nSubsidy = 140 * COIN;   }
+        else if (!(nHeight%4800)) {  nSubsidy = 221 * COIN;   }
+        else if (!(nHeight%25)) {  nSubsidy = 70 * COIN ;   }
+	else if (nHeight > 5000) {nSubsidy = 60 * COIN; }
     }
     else
     {
