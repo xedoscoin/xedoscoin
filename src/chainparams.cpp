@@ -28,7 +28,7 @@ public:
         pchMessageStart[2] = 0x6f;
         pchMessageStart[3] = 0xbc;
         vAlertPubKey = ParseHex("04e41db2a8b8dc3981f819d46060875ce483bf303613b108e673d7bb636f7786bd0458e2ced6e8b337be32d024562f3e69776412b55a7210396ad7a9944812b445");
-        nDefaultPort = 18152;
+        nDefaultPort = 18852;
         nRPCPort = 18153;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 262800;
@@ -47,9 +47,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1391254916;
+        genesis.nTime    = 1391411442;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2855195;
+        genesis.nNonce   = 27618;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
@@ -63,7 +63,7 @@ public:
         printf("%x\n", bnProofOfWorkLimit.GetCompact());
         genesis.print();
                 
-        assert(hashGenesisBlock == uint256("0x0000010820d815b8ed14923b206ca72e7d1d825e7e7efb1615c91494175c7577"));
+        assert(hashGenesisBlock == uint256("0x00000fb97175783151f02a8c4d51c51828aa47cfa56759ae3c7748bd98deac25"));
         assert(genesis.hashMerkleRoot == uint256("0x7ae09c5155d40e046e7aa6fdeed6812947ad9b1e0bcd4549e449f047352a1ba1"));
 
         vSeeds.push_back(CDNSSeedData("54.201.217.235", "54.201.217.235"));
