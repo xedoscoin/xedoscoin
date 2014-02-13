@@ -3,9 +3,6 @@ Xedoscoin integration/staging tree
 
 http://xedoscoin.com
 
-Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2013 Skeincoin Developers
-Copyright (c) 2014 Xedoscoin Developers
 
 What is Xedoscoin?
 -----------------
@@ -24,3 +21,10 @@ License
 
 Xedoscoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
+
+
+Copyright (c) 2009-2013 Bitcoin Developers
+
+Copyright (c) 2013 Skeincoin Developers
+
+Copyright (c) 2014 Xedoscoin Developers
