@@ -1,10 +1,11 @@
 Xedoscoin integration/staging tree
 ==================================
 
-www.url_url.org
+http://xedoscoin.com
 
-Copyright (c) 2009-2013 Bitcoin Developers,
-Copyright (c) 2013 Xedoscoin Developers
+Copyright (c) 2009-2013 Bitcoin Developers
+Copyright (c) 2013 Skeincoin Developers
+Copyright (c) 2014 Xedoscoin Developers
 
 What is Xedoscoin?
 -----------------
@@ -16,7 +17,7 @@ out collectively by the network. Xedoscoin is also the name of the open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Xedoscoin client sofware, see http://www.url_url.org/
+the Xedoscoin client sofware, see http://xedoscoin.com/
 
 License
 -------
