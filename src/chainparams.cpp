@@ -66,7 +66,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000fb97175783151f02a8c4d51c51828aa47cfa56759ae3c7748bd98deac25"));
         assert(genesis.hashMerkleRoot == uint256("0x7ae09c5155d40e046e7aa6fdeed6812947ad9b1e0bcd4549e449f047352a1ba1"));
 
-        vSeeds.push_back(CDNSSeedData("54.201.217.235", "54.201.217.235"));
+        vSeeds.push_back(CDNSSeedData("188.226.130.165", "188.226.130.165"));
 //       vSeeds.push_back(CDNSSeedData("seed2.xedoscoin.org", "seed2.xedoscoin.org"));
  //       vSeeds.push_back(CDNSSeedData("seed3.xedoscoin.org", "seed3.xedoscoin.org"));
  //       vSeeds.push_back(CDNSSeedData("xedoscoin.zapto.org", "xedoscoin.zapto.org"));
