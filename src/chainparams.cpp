@@ -52,10 +52,10 @@ public:
         genesis.nNonce   = 27618;
         
         //// debug print
-        hashGenesisBlock = genesis.GetHash();
+        hashGenesisBlock = genesis.GetPoWHash();
         //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
         //    if (++genesis.nNonce==0) break;
-        //    hashGenesisBlock = genesis.GetHash();
+        //    hashGenesisBlock = genesis.GetPoWHash();
         //}
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
@@ -127,10 +127,10 @@ public:
         genesis.nNonce = 5;
                 
         //// debug print
-        hashGenesisBlock = genesis.GetHash();
+        hashGenesisBlock = genesis.GetPoWHash();
         //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
         //    if (++genesis.nNonce==0) break;
-        //   hashGenesisBlock = genesis.GetHash();
+        //   hashGenesisBlock = genesis.GetPoWHash();
         //}
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
@@ -168,15 +168,15 @@ public:
         genesis.nTime = 1391248968;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 3;
-        hashGenesisBlock = genesis.GetHash();
+        hashGenesisBlock = genesis.GetPoWHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
         
         //// debug print
-        hashGenesisBlock = genesis.GetHash();
+        hashGenesisBlock = genesis.GetPoWHash();
         //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
         //    if (++genesis.nNonce==0) break;
-        //    hashGenesisBlock = genesis.GetHash();
+        //    hashGenesisBlock = genesis.GetPoWHash();
         //}
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
