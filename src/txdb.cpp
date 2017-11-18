@@ -227,10 +227,11 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                 if (pindexGenesisBlock == NULL && diskindex.GetBlockHash() == Params().HashGenesisBlock())
                     pindexGenesisBlock = pindexNew;
 
-                if (!pindexNew->CheckIndex())
-                    return error("LoadBlockIndex() : CheckIndex failed: %s", pindexNew->ToString().c_str());
+//                if (!pindexNew->CheckIndex())
+//                    return error("LoadBlockIndex() : CheckIndex failed: %s", pindexNew->ToString().c_str());
 
                 pcursor->Next();
+		assert(pcursor->Valid());
             } else {
                 break; // if shutdown requested or finished loading block index
             }
